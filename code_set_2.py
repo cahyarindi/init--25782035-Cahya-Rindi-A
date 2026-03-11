@@ -1,5 +1,5 @@
 def check(n):
-    if n != None:
+    if n is not None:
         if n>0:
             if n<100:
                 return True
